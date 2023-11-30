@@ -108,13 +108,10 @@ unittest
     auto ctr = ctRegex!(`User: rock, Computer: (rock|paper|scissors). You (win|lose|tied).`);
     immutable result = resultForUser(GameChoices.rock);
     auto c2 = matchFirst(result, ctr);   // First match found here, if any
-    assert(!c2.empty);   // Be sure to check if there is a match before examining contents!
+    assert(!c2.empty);  
 }
 unittest
 {
-    import std.regex;
-    auto ctr = ctRegex!(`User: rock, Computer: rock. You win.`);
     immutable result = resultForUser(MatchOutcome.win, GameChoices.rock, GameChoices.rock);
-    auto c2 = matchFirst(result, ctr);   // First match found here, if any
-    assert(!c2.empty);   // Be sure to check if there is a match before examining contents!
+    assert(result == "User: rock, Computer: rock. You win.");   // Be sure to check if there is a match before examining contents!
 }
