@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"MAArmbruster"
+	],
+	"copyright": "Copyright © 2023, MAArmbruster",
+	"dependencies": {
+		"vibe-d": "~>0.9.7"
+	},
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "azfnmattindlang"
+}
