@@ -7,6 +7,6 @@
 		"vibe-d": "~>0.9.7"
 	},
 	"description": "A minimal D application.",
-	"license": "proprietary",
+	"license": "MIT",
 	"name": "azfnmattindlang"
 }
