@@ -27,6 +27,7 @@ __azurite_db*__.json
 
 # Executables
 *.exe
+azfnmattindlang
 
 # DUB
 .dub

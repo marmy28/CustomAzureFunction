@@ -14,7 +14,7 @@
   },
   "customHandler": {
     "description": {
-      "defaultExecutablePath": "azfnmattindlang.exe",
+      "defaultExecutablePath": "azfnmattindlang",
       "workingDirectory": "",
       "arguments": []
     },
