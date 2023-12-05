@@ -8,5 +8,6 @@
 	},
 	"description": "A minimal D application.",
 	"license": "MIT",
-	"name": "azfnmattindlang"
+	"name": "azfnmattindlang",
+	"dflags": ["-target=x86_64-unknown-linux-musl"]
 }
